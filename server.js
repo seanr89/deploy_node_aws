@@ -12,7 +12,7 @@ app.get('/healthcheck', (req, res) => {
 })
 
 app.get('/automatic', (req, res) => {
-  res.status(200).send('Deployed version 1.0.4')
+  res.status(200).send('Deployed version 1.0.5')
 })
 
 app.listen(port, () => {

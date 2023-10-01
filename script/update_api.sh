@@ -4,6 +4,8 @@ set -euo pipefail
 
 echo "Updating API"
 
+echo "User: $($USER)"
+
 echo "Un-packing zip"
 
 unzip -o -q ~/zipped/release.zip -d ~/api/deploy_node_aws/
