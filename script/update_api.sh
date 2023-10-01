@@ -6,10 +6,10 @@ echo "Updating API"
 
 echo "User: $($USER)"
 
-echo "Path: $($PATH)"
+# echo "Path: $($PATH)"
 
 if [ $PATH != *'versions/node'* ]; then
-  echo "It's not there!"
+  export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v18.18.0/bin
 fi
 
 echo "Un-packing zip"
