@@ -43,4 +43,4 @@ jobs:
         port: ${{ secrets.PORT }}
         key: ${{ secrets.KEY }}
         source: "release.zip"
-        target: "test"
+        target: "zipped"
