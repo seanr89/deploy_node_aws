@@ -16,5 +16,5 @@ sudo apt install unzip
 ```
 
 ```
-sudo apt install pm2
+sudo npm install -g pm2
 ```
