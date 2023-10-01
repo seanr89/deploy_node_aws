@@ -45,3 +45,10 @@ jobs:
         key: ${{ secrets.KEY }}
         source: "release.zip"
         target: "zipped"
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: ${{ secrets.HOST }}
+        proxy_key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        script: ~/scripts/update_api.sh

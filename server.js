@@ -11,6 +11,10 @@ app.get('/healthcheck', (req, res) => {
   res.status(200).send('Application Healthy')
 })
 
+app.get('/automatic', (req, res) => {
+  res.status(200).send('Deployed version 1.0.0')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })

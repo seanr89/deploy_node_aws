@@ -10,3 +10,7 @@ deploying a nodejs express api to aws
 ## EC2 Setup
 [Node](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)
 
+## Extra Commands
+```
+sudo apt install unzip
+```
