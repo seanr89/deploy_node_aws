@@ -14,3 +14,7 @@ deploying a nodejs express api to aws
 ```
 sudo apt install unzip
 ```
+
+```
+sudo apt install pm2
+```
