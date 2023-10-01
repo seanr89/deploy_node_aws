@@ -6,6 +6,12 @@ echo "Updating API"
 
 echo "User: $($USER)"
 
+echo "Path: $($PATH)"
+
+if [ $PATH != *'versions/node'* ]; then
+  echo "It's not there!"
+fi
+
 echo "Un-packing zip"
 
 unzip -o -q ~/zipped/release.zip -d ~/api/deploy_node_aws/
