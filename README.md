@@ -11,6 +11,9 @@ deploying a nodejs express api to aws
 [Node](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04)
 
 ## Extra Commands
+Basic commands that need to be run in as well
+
+- unzip for package un-packing
 ```
 sudo apt install unzip
 ```

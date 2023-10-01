@@ -4,9 +4,14 @@ set -euo pipefail
 
 echo "Updating API"
 
-echo "User: $($USER)"
+echo npm list -g
 
-# echo "Path: $($PATH)"
+echo "PM2 PATH Checks"
+
+export NVM_DIR=~/.nvm
+source ~/.nvm/nvm.sh
+
+npm list -g
 
 export NVM_DIR=~/.nvm
 source ~/.nvm/nvm.sh
