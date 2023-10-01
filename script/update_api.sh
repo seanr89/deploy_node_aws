@@ -8,6 +8,9 @@ echo "User: $($USER)"
 
 # echo "Path: $($PATH)"
 
+export NVM_DIR=~/.nvm
+source ~/.nvm/nvm.sh
+
 if [ $PATH != *'versions/node'* ]; then
   export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v18.18.0/bin
 fi
