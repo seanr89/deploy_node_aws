@@ -11,7 +11,7 @@ app.get('/healthcheck', (req, res) => {
   res.status(200).send('Application Healthy')
 })
 
-app.get('/automatic', (req, res) => {
+app.get('/version', (req, res) => {
   res.status(200).send('Deployed version 1.0.0')
 })
 
